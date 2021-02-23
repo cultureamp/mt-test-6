@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test6"
+  description: "test6"
+  annotations:
+    github.com/project-slug: cultureamp/mt-test-6
+    backstage.io/techdocs-ref: url:https://github.com/cultureamp/mt-test-6
+    buildkite.com/project-slug: culture-amp/mt-test-6
+spec:
+  type: service
+  lifecycle: development
+  owner: matthewtapper
